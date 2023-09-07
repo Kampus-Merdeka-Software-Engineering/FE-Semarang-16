@@ -1,0 +1,310 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+    background: #c8d0f4;
+    z-index: 1;
+    border-bottom:1px solid #989ca2;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #040404;
+}
+
+.item-kolom {
+    font-size: 45px;
+    font-family: 'comic sans ms';
+    font-weight: 800;
+}
+
+.courses {
+    display: grid;
+    align-items: center;
+}
+
+.courses-label {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #040404;
+    ;
+    width: 100%;
+    line-height: 50px;
+    display:grid;
+}
+
+.courses-deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #040404;
+}
+
+.all-courses {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+}
+
+.all-courses a {
+    display: block;
+    background-color: #b8c6dd;
+    color:#030303;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3)
+}
+
+.item-courses {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+}
+
+.item-courses p {
+    display: block;
+    background-color: #ffffff;
+    color:#030303;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #141414;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3)
+}
+
+a.tbl-biru {
+    background: #b8c6dd;
+    text-align: justify;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #030303;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3)
+}
+
+a.tbl-biru:hover {
+    background: #989ca2;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #b8c6dd;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #010101;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3)
+}
+
+a.tbl-pink:hover {
+    background: #989ca2;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.tutor-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.kartu-tutor {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.kartu-tutor img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-tutor p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #080808;
+    margin: 50px
+}
+
+.partner-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-partner {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.partners-item {
+    font-size: 25px;
+    font-family: 'comic sans ms';
+    font-weight: 800;
+}
+
+.kartu-partner img {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+#contact {
+    background: #b8c6dd;
+    padding:50px 0px 30px 0px;
+}
+
+.contact-item{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #040404;
+    margin-bottom: 10px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-tutor {
+        width: 50%;
+    }
+
+    .kartu-partner {
+        width: 50%;
+    }
+}

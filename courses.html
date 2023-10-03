@@ -108,18 +108,43 @@
 
       <section class="section category has-bg-image" aria-labelledby="category-label"
         style="background-image: url('./assets/images/category-bg.png')">
-        <div class="container">
-            <div class="faq">
-                <h2 class="question">What is Lorem Ipsum?</h2>
-                <p class="answer">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            </div>
-            <div class="faq">
-                <h2 class="question">Why do we use it?</h2>
-                <p class="answer">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-            </div>
-            <!-- Add more FAQs here -->
-        </div>
-      </section>
+        <!-- Bagian Form untuk Courses -->
+<section class="section course-form" aria-labelledby="course-form-label">
+  <div class="container">
+    <h2 class="headline-md section-title" id="course-form-label">
+      Daftar Sekarang dan Pilih Kursus Anda
+    </h2>
+
+    <form action="proses_pendaftaran.php" method="POST">
+      <div class="form-group">
+        <label for="nama">Nama Lengkap:</label>
+        <input type="text" id="nama" name="nama" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Alamat Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="kursus">Pilih Kursus:</label>
+        <select id="kursus" name="kursus" required>
+          <option value="Matematika(SD)">Matematika(SD)</option>
+          <option value="Bahasa Inggris(SMA)">Bahasa Inggris(SMA)</option>
+          <option value="IPA(SD)">IPA(SD)</option>
+          <option value="IPS(SMA)">IPS(SMA)</option>
+          <option value="Matematika(SMP)">Matematika(SMP)</option>
+          <option value="IPA(SMP)">IPA(SMP)</option>
+        </select>
+      </div>
+      <br>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary">Daftar Sekarang</button>
+      </div>
+    </br>
+    </form>
+  </div>
+</section>
 
 
 
@@ -271,49 +296,4 @@
 
 </body>
 
-</html>
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form Pendaftaran Kursus</title>
-    <link rel="stylesheet" href="./assets/css/pendaftaran course.css">
-</head>
-<body>
-    <div class="container">
-        <h1>Form Pendaftaran Kursus</h1>
-        <form id="course-form">
-            <div class="form-group">
-                <label for="nama">Nama:</label>
-                <input type="text" id="nama" name="nama" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-                <label for="kursus">Kursus yang diminati:</label>
-                <select id="kursus" name="kursus" required>
-                    <option value="matematika">Matematika</option>
-                    <option value="sains">Sains</option>
-                    <option value="IPS">IPS</option>
-                    <option value="lainnya">Lainnya</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="pesan">Pesan Tambahan:</label>
-                <textarea id="pesan" name="pesan"></textarea>
-            </div>
-            <div class="form-group">
-                <button type="submit">Daftar</button>
-            </div>
-        </form>
-    </div>
-
-    <script src="script.js"></script>
-</body>
 </html>

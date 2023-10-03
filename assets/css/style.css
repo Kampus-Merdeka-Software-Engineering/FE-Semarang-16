@@ -492,17 +492,22 @@ body.nav-active { overflow: hidden; }
 
 .progress-fill.red {
   background-color: var(--light-coral);
-  width: 86%;
+  width: 95%;
 }
 
 .progress-fill.green {
   background-color: var(--keppei);
-  width: 67%;
+  width: 85%;
 }
 
 .progress-fill.yellow {
   background-color: var(--selective-yellow);
-  width: 95%;
+  width: 80%;
+}
+
+.progress-fill.blue {
+  background-color: var(--light-gray);
+  width: 90%;
 }
 
 

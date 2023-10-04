@@ -1,0 +1,74 @@
+.h1-tim {
+  padding-top: 30px;
+  text-align: center;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin: 50px;
+}
+
+.grid img {
+  margin-left: 35px;
+  padding-top: 9px;
+  width: 250px;
+  height: 250px;
+  border-radius: 30px;
+}
+
+img {
+  object-fit: cover;
+}
+
+.grid > article {
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  text-align: center;
+  background: #fff;
+  width: 280px;
+  height: 410px;
+  transition: 0.2s transform;
+  cursor: pointer;
+}
+
+.grid > article img {
+  padding-left: 12px;
+  padding-top: 15px;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.grid > article:hover {
+  transform: scale(1.1);
+}
+
+.grid p {
+  color: #000;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.grid h2 {
+  color: #000;
+  font-size: 25px;
+}
+.grid button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #7442e7;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+  width: 80%;
+}
+
+.grid button:hover {
+  background-color: #636cbb;
+}

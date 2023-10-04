@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  
   <!-- 
     - primary meta tags
   -->
@@ -108,96 +108,43 @@
 
       <section class="section category has-bg-image" aria-labelledby="category-label"
         style="background-image: url('./assets/images/category-bg.png')">
-        <!-- Bagian Form untuk Courses -->
-        <style>
-          body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  margin: 0;
-  padding: 0;
-}
-.container {
-  max-width: 600px;
-  margin: 50px auto;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-.form-group {
-  margin-bottom: 15px;
-}
-.form-group label {
-  display: block;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-.form-group input,
-.form-group select {
-  width: 100%;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-.form-group button {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 16px;
-}
-        </style>
-        <body>
-          <div class="container">
-            <h1>Daftar Sekarang dan Pilih Kursus Anda</h1>
-            <form action="#" method="post">
-              <div class="form-group">
-                <label for="nama">Nama Lengkap:</label>
-                <input type="text" id="nama" name="nama" required />
-              </div>
-              <div class="form-group">
-                <label for="email">Alamat Email:</label>
-                <input type="email" id="email" name="email" required />
-              </div>
-              <div class="form-group">
-                <label for="telepon">Nomor Telepon:</label>
-                <input type="tel" id="telepon" name="telepon" required />
-              </div>
-              <div class="form-group">
-                <label for="level">Pilih Kursus:</label>
-                <select id="level" name="level" required>
-                  <option value="matematika">MATEMATIKA</option>
-                  <option value="ipa">IPA</option>
-                  <option value="ips">IPS</option>
-                  <option value="bahasa_inggris">BAHASA INGGRIS</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label for="level">Pilih Level:</label>
-                <select id="level" name="level" required>
-                  <option value="sd">SD</option>
-                  <option value="smp">SMP</option>
-                  <option value="sma">SMA</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <button type="submit">Daftar</button>
-              </div>
-            </form>
+        <!-- Bagian Tutor -->
+        <link rel="stylesheet" href="./assets/css/tutor.css">
+        <div>
+            <h1 class="h1-tim" >TUTOR</h1>
           </div>
-        </body>
-
-
-
-    </article>
+          <div class="grid">
+            <article>
+              <img src="assets/images/tutor/suparno.jpg" alt="suparno" />
+              <div class="deskripsi">
+                <h2>Atim</h2>
+                <p class="title">Matematika</p>
+                <a href="https://instagram.com/edukids3202?igshid=MzRlODBiNWFlZA==">
+                  <p><button class="button">Contact</button></p>
+                </a>
+              </div>
+            </article>
+            <article>
+                <img src="assets/images/tutor/suparno.jpg" alt="suparno" />
+                <div class="deskripsi">
+                  <h2>Irene</h2>
+                  <p class="title">IPA</p>
+                  <a href="https://instagram.com/edukids3202?igshid=MzRlODBiNWFlZA==">
+                    <p><button class="button">Contact</button></p>
+                </a>
+              </div>
+            </article>
+            <article>
+                <img src="assets/images/tutor/suparno.jpg" alt="suparno" />
+                <div class="deskripsi">
+                  <h2>Devano</h2>
+                  <p class="title">BAHASA INGGRIS</p>
+                  <a href="https://instagram.com/edukids3202?igshid=MzRlODBiNWFlZA==">
+                    <p><button class="button">Contact</button></p>
+                </a>
+              </div>
+            </article>
   </main>
-
-
-
-
 
   <!-- 
     - #FOOTER
@@ -267,7 +214,7 @@
           </li>
 
           <li>
-            <a href="#" class="title-sm footer-link">Courses</a>
+            <a href="./courses.html" class="title-sm footer-link">Courses</a>
           </li>
 
           <li>

@@ -6,30 +6,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- 
-    - primary meta tags
-  -->
+  <!-- primary meta tags -->
   <title>EduKids</title>
   <meta name="title" content="EduKids">
 
-  <!-- 
-    - indexicon
-  -->
+  <!-- indexicon -->
   <link rel="shortcut icon" href="./assets/images/logo.png" type="image/svg+xml">
 
-  <!-- 
-    - custom font link
-  -->
+  <!-- custom font link -->
   <link rel="stylesheet" href="./assets/font/font.css">
 
-  <!-- 
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- custom css link -->
+  <link rel="stylesheet" href="./assets/css/courses.css">
 
-  <!-- 
-    - preload images
-  -->
+  <!-- preload images -->
   <link rel="preload" as="image" href="./assets/images/hero-banner.png">
   <link rel="preload" as="image" href="./assets/images/hero-bg.png">
 
@@ -37,21 +27,13 @@
 
 <body>
 
-  <!-- 
-    - PRELOADER
-  -->
+  <!-- PRELOADER -->
 
   <div class="preloader" data-preloader>
     <div class="circle" data-circle></div>
   </div>
 
-
-
-
-
-  <!-- 
-    - #HEADER
-  -->
+  <!-- #HEADER -->
 
   <header class="header" data-header>
     <div class="container">
@@ -94,201 +76,174 @@
 
       </nav>
 
-      <a href="./login.html" class="btn btn-secondary">Get Started Now</a>
-
-      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
-        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
-      </button>
-
       <div class="overlay" data-overlay data-nav-toggler></div>
 
     </div>
   </header>
 
-  
-  <body>
-    
-    <!-- #CATEGORY -->
+  <main>
+    <article>
+
+      <!-- #FAQ -->
 
       <section class="section category has-bg-image" aria-labelledby="category-label"
         style="background-image: url('./assets/images/category-bg.png')">
-        <div class="container">
 
-          <p class="title-sm text-center section-subtitle" id="category-label">Course Categories</p>
+        <!-- Pilihan Kusrsus SD -->
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .form-group button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        </style>
 
-          <h2 class="headline-md text-center section-title">
-            Please Click The Course <br><span class="span has-after">Do You Want</span>
-          </h2>
 
-          <ul class="grid-list">
-
-            <li>
-              <div class="card category-card">
-
-                <div class="card-icon">
-                  <img src="./assets/images/matematika.png" width="140" height="120" loading="lazy"
-                    alt="SD Category icon">
-                </div>
-
-                <div>
-                  <h3 class="title-lg">Matematika</h3>
-
-                  <p class="title-sm">6 Materi</p>
-                </div>
-
-                <a href="./courses.html" class="layer-link" aria-label="SD Category"></a>
+        <body>
+          <div class="container">
+            <h2>Selamat Belajar</h2>
+            <form action="#" method="post">
+              <div class="form-group">
+                <label for="level">Pilih Materi yang Ingin Kalian Pelajari</label>
+                <select id="level" name="level" required>
+                  <option value="sd">Operasi Hitung Bilangan Bulat</option>
+                  <option value="sd">Kecepatan, Jarak, Sudut, dan Waktu</option>
+                  <option value="sd">Luas Bangun Datar</option>
+                  <option value="sd">Volume dan Luas Balok atau Kubus</option>
+                  <option value="sd">Bilangan Pecahan</option>
+                  <option value="sd">Karakteristik Bangunan dan Korelasinya</option>
+                  <option value="sd">Pengukuran Volume dan Luas</option>
+                  <option value="sd">Perhitungan Volume dan Luas</option>
+                  <option value="sd">Pengolahan dan Penyajian Data</option>
+                  <option value="sd">Perhitungan Koordinat Bilangan</option>
+                </select>
               </div>
-            </li>
-
-            <li>
-              <div class="card category-card">
-
-                <div class="card-icon">
-                  <img src="./assets/images/science.png" width="115" height="120" loading="lazy"
-                    alt="SMP Category icon">
-                </div>
-
-                <div>
-                  <h3 class="title-lg">IPA</h3>
-
-                  <p class="title-sm">9 Materi</p>
-                </div>
-
-                <a href="./courses.html" class="layer-link" aria-label="SMP Category"></a>
-
+              <div class="form-group">
+                <button type="submit">Submit</button>
               </div>
-            </li>
+            </form>
+          </div>
+        </body>
 
-            
+    </article>
+  </main>
 
-            <li>
-              <div class="card category-card">
-
-                <div class="card-icon">
-                  <img src="./assets/images/english.png" width="114.8" height="120" loading="lazy"
-                    alt="SMA Category icon">
-                </div>
-
-                <div>
-                  <h3 class="title-lg">Bahasa Inggris</h3>
-
-                  <p class="title-sm">7 Materi</p>
-
-                <a href="./courses.html" class="layer-link" aria-label="SMA Category"></a>
-
-              </div>
-            </li> 
-          </ul>
-        </div>
-      </section>
-
-        <!-- #FOOTER -->
+  <!-- #FOOTER -->
 
   <footer class="footer has-bg-image" style="background-image: url('./assets/images/footer-bg.png')">
 
     <div class="section footer-top">
       <div class="container">
-
         <div class="footer-brand">
-
           <a href="#" class="logo">
             <img src="./assets/images/logo.png" width="125" height="57" alt="EduKids home">
           </a>
-
           <p class="title-sm footer-text">
             Thank you for choosing EduKids
           </p>
 
           <ul class="social-list">
-
             <li>
               <a href="#" class="social-link">
                 <img src="./assets/images/facebook.svg" width="40" height="40" loading="lazy" alt="facebook">
               </a>
             </li>
-
             <li>
               <a href="#" class="social-link">
                 <img src="./assets/images/twitter.svg" width="40" height="40" loading="lazy" alt="twitter">
               </a>
             </li>
-
             <li>
               <a href="#" class="social-link">
                 <img src="./assets/images/pinterest.svg" width="40" height="40" loading="lazy" alt="pinterest">
               </a>
             </li>
-
             <li>
               <a href="#" class="social-link">
                 <img src="./assets/images/instagram.svg" width="40" height="40" loading="lazy" alt="instagram">
               </a>
             </li>
-
           </ul>
-
         </div>
 
         <ul class="footer-list">
-
           <li>
             <p class="headline-sm footer-list-title">Links</p>
           </li>
-
           <li>
             <a href="./index.html" class="title-sm footer-link">Home</a>
           </li>
-
           <li>
             <a href="#" class="title-sm footer-link">About Us</a>
           </li>
-
           <li>
             <a href="#" class="title-sm footer-link">Tutor</a>
           </li>
-
           <li>
             <a href="#" class="title-sm footer-link">Courses</a>
           </li>
-
           <li>
             <a href="#" class="title-sm footer-link">Contact Us</a>
           </li>
-
           <li>
             <a href="#" class="title-sm footer-link">Blog</a>
           </li>
-
         </ul>
 
         <ul class="footer-list">
-
           <li>
             <p class="headline-sm footer-list-title">Legal</p>
           </li>
-
           <li>
             <a href="#" class="title-sm footer-link">Legal</a>
           </li>
-
           <li>
             <a href="#" class="title-sm footer-link">Tearms of Use</a>
           </li>
-
           <li>
             <a href="#" class="title-sm footer-link">Tearm & Condition</a>
           </li>
-
           <li>
             <a href="#" class="title-sm footer-link">Payment Method</a>
           </li>
-
           <li>
             <a href="#" class="title-sm footer-link">Privacy Policy</a>
           </li>
-
         </ul>
-
       </div>
     </div>
 
@@ -310,4 +265,6 @@
   <!-- ionicon -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  </body>
+
+</body>
+</html>

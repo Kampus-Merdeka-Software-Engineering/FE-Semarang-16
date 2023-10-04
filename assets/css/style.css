@@ -105,7 +105,7 @@ button {
 html {
   font-family: var(--ff-gilroy);
   font-size: 10px;
-  scroll-behavior: smooth;
+  scroll-behavior: smooth; 
 }
 
 body {

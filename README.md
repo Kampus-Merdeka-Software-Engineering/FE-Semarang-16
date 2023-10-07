@@ -4,7 +4,7 @@
 
 EduKids adalah platform pembelajaran online yang menyediakan beragam kursus, seperti matematika, sains, IPS, dan banyak lagi. Kami telah merancang platform ini dengan tujuan memberikan pendidikan berkualitas tinggi yang juga terjangkau bagi anak-anak dari segala usia. Kursus-kursus kami dirancang agar menarik dan interaktif, dengan tim guru berpengalaman yang selalu siap membantu dan mendukung anak-anak dalam setiap langkah pembelajarannya.
 
-## 🎁Key Features
+## Key Features
 
 Berikut adalah beberapa fitur yang terdapat dalam website EduKids:
 
@@ -24,7 +24,7 @@ Berikut adalah beberapa fitur yang terdapat dalam website EduKids:
 
 ## 🕹 How to Run the Project
 Buka situs pada link berikut - klik link : <br><br>
-[![Kebijakan Standar EduKids](https://md-buttons.francoisvoron.com/button.svg?text=EduKids)](https://kampus-merdeka-software-engineering.github.io/front-end-capstone-project-section-semarang-group-16/) 
+[![Kebijakan Standar EduKids](https://md-buttons.francoisvoron.com/button.svg?text=EduKids)](https://kampus-merdeka-software-engineering.github.io/FE-16/) 
 
 ## 🤗 Tim Pengembangan
-EduKids adalah proyek yang dibangun dengan konsentrasi dan harapan besar oleh Grub 16 Section Semarang, MSIB ( [RevoU](https://revou.co/) x [MSIB Kemendikbudristek](https://www.kemdikbud.go.id/) ). <br>  Terima kasih kepada semua kontributor yang telah berpartisipasi dalam pengembangan situs ini.
+EduKids adalah proyek yang di develop oleh Grub 16 Section Semarang, MSIB ( [RevoU](https://revou.co/) x [MSIB Kemendikbudristek](https://www.kemdikbud.go.id/) ).

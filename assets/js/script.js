@@ -80,7 +80,7 @@ const loginForm = document.getElementById('login-form');
         console.log('Username:', username);
         console.log('Password:', password);
 
-        window.location.href = '.home.html';
+        window.location.href = '.index.html';
       });
 
 

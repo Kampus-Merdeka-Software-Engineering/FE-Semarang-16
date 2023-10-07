@@ -22,9 +22,9 @@ Berikut adalah beberapa fitur yang terdapat dalam website EduKids:
 
 7. **Rating dan Ulasan**: Pengguna dapat melihat rating dan ulasan dari kursus-kursus sebelumnya. Ini membantu pengguna untuk mendapatkan wawasan tentang kualitas kursus tersebut.
 
-## 🕹 How to Run the Project
-Buka situs pada link berikut - klik link : <br><br>
-[![Kebijakan Standar EduKids](https://md-buttons.francoisvoron.com/button.svg?text=EduKids)](https://kampus-merdeka-software-engineering.github.io/FE-16/) 
+## How to Run
+Buka dengan cara klik button di bawah: <br><br>
+[![Kebijakan Standar EduKids](https://md-buttons.francoisvoron.com/button.svg?text=EduKids)](https://kampus-merdeka-software-engineering.github.io/FE-Semarang-16/) 
 
 ## 🤗 Tim Pengembangan
 EduKids adalah proyek yang di develop oleh Grub 16 Section Semarang, MSIB ( [RevoU](https://revou.co/) x [MSIB Kemendikbudristek](https://www.kemdikbud.go.id/) ).

@@ -1,10 +1,6 @@
 'use strict';
 
-
-
-/**
- * add eventListener on multiple elements
- */
+/* add eventListener on multiple elements */
 
 const addEventOnElements = function (elements, eventType, callback) {
   for (let i = 0, len = elements.length; i < len; i++) {
@@ -12,12 +8,7 @@ const addEventOnElements = function (elements, eventType, callback) {
   }
 }
 
-
-
-/**
- * PRELOADER
- */
-
+/* PRELOADER */
 const preloader = document.querySelector("[data-preloader]");
 const circle = document.querySelector("[data-circle]");
 
@@ -27,12 +18,7 @@ window.addEventListener("load", function () {
   document.body.classList.add("loaded");
 });
 
-
-
-/**
- * NAVBAR TOGGLER FOR MOBILE
- */
-
+/* NAVBAR TOGGLER FOR MOBILE */
 const navbar = document.querySelector("[data-navbar]");
 const navTogglers = document.querySelectorAll("[data-nav-toggler]");
 const overlay = document.querySelector("[data-overlay]");
@@ -45,13 +31,8 @@ const toggleNavbar = function () {
 
 addEventOnElements(navTogglers, "click", toggleNavbar);
 
-
-
-/**
- * HEADER
- * 
- * add active class on header when window scroll down to 100px
- */
+/* HEADER 
+ * add active class on header when window scroll down to 100px */
 
 const header = document.querySelector("[data-header]");
 
@@ -69,31 +50,23 @@ window.addEventListener("scroll", headerActive);
 
 // For Login Page
 const loginForm = document.getElementById('login-form');
-      const usernameInput = document.getElementById('username');
-      const passwordInput = document.getElementById('password');
+loginForm.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const username = document.getElementById("username").value;
+  const password = document.getElementById("password").value;
 
-      loginForm.addEventListener('submit', function (event) {
-        event.preventDefault(); // Mencegah pengiriman formulir ke server
+  console.log(username, password);
 
-        const username = usernameInput.value;
-        const password = passwordInput.value;
-        console.log('Username:', username);
-        console.log('Password:', password);
+  window.location.href = './index.html';
+});
 
-        window.location.href = '.index.html';
-      });
-
-
-//For Signup Page
-
+//For Sign Up Page
 function redirectToLogin() {
   window.location.href = './login.html'; 
-
+  
 // Temukan link "Back to Login" berdasarkan ID
-const loginLink = document.getElementById('loginLink');
-
-// Tambahkan event listener untuk mengarahkan ke halaman login saat link ditekan
-loginLink.addEventListener('click', redirectToLogin);
+  const loginLink = document.getElementById('loginLink');
+  loginLink.addEventListener('click', redirectToLogin);
 }
 
 

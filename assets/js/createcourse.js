@@ -1,8 +1,8 @@
  document.getElementById("myForm").addEventListener("submit", function (e) {
             e.preventDefault();
          const nama = document.getElementById("nama").value;
-        const mapel = document.getElementById("mapel").value;
-        const level = document.getElementById("level").value;
+         const mapel = document.getElementById("mapel").value;
+         const level = document.getElementById("level").value;
          const course_url = "https://be-semarang-16-production.up.railway.app/course";
 
             // Send a POST request to the server
@@ -13,8 +13,8 @@
                 },
                 body: JSON.stringify({
                  course_name : nama,
-                course_category : mapel,
-                course_level : level,
+                 course_category : mapel,
+                 course_level : level,
             }),
             })
                 .then((response) => response.json())

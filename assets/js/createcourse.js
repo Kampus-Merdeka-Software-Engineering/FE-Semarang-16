@@ -3,7 +3,7 @@
          const nama = document.getElementById("nama").value;
         const mapel = document.getElementById("mapel").value;
         const level = document.getElementById("level").value;
-          const url = "https://localhost:3000"
+          const url = "https://be-semarang-16-production.up.railway.app/course"
 
             // Send a POST request to the server
             fetch(url, {

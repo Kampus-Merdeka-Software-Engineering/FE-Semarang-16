@@ -21,7 +21,8 @@
                 .then((data) => {
                     // Handle the response from the server here
                     console.log(data);
-                 alert("Daftar Course Sukses");
+                    alert("Daftar Course Sukses");
+                    window.location.href = 'http://www.google.com'
                 })
                 .catch((error) => {
                     console.error("Error:", error);

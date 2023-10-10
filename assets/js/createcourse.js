@@ -22,7 +22,7 @@
                     // Handle the response from the server here
                     console.log(data);
                     alert("Daftar Course Sukses");
-                    window.location.href = 'http://www.google.com'
+                    window.location.href = 'https://fe-semarang-16-production.up.railway.app/index.html'
                 })
                 .catch((error) => {
                     console.error("Error:", error);

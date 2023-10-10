@@ -21,6 +21,7 @@
                 .then((data) => {
                     // Handle the response from the server here
                     console.log(data);
+                 alert("Daftar Course Sukses");
                 })
                 .catch((error) => {
                     console.error("Error:", error);

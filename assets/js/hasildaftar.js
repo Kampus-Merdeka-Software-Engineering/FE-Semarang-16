@@ -1,4 +1,4 @@
-const hasildaftar = document.getElementById("hasildaftar");
+const hasildaftar = document.getElementById("hasilBooking");
 
 const apiUrl = "https://be-semarang-16-production.up.railway.app/course";
 

@@ -13,8 +13,9 @@ function fetchAndDisplayBooking() {
     .then((data) => {
       const lastBooking = data[data.length - 1];
       const bookingDetails = `
-        <h2>Booking Information</h2>
-        <p><span class="booking-label">CourseID</span><span class="booking-value">${lastBooking.course_id}</span></p>
+      <images href="assets/images/logo.png"></images>
+        <h2>Informasi bookings </h2>
+        <p><span class="booking-label">CourseID:</span><span class="booking-value">${lastBooking.course_id}</span></p>
         <p><span class="booking-label">Course Name:</span><span class="booking-value">${lastBooking.course_name}</span></p>
         <p><span class="booking-label">Course Category:</span><span class="booking-value">${lastBooking.course_category}</span></p>
         <p><span class="booking-label">Course level:</span><span class="booking-value">${lastBooking.course_level}</span></p>

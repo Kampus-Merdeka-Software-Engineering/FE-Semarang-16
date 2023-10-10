@@ -29,3 +29,6 @@ Buka dengan cara klik button di bawah: <br><br>
 
 ## 🤗 Tim Pengembangan
 EduKids adalah proyek yang di develop oleh Grub 16 Section Semarang, MSIB ( [RevoU](https://revou.co/) x [MSIB Kemendikbudristek](https://www.kemdikbud.go.id/) ).
+
+## Link Hasil QA
+https://docs.google.com/spreadsheets/d/1SvfxynYa6fv6vyKeaYz05FPG7RkPLK2bDuh6h8BMiCU/edit#gid=0
